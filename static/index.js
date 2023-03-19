@@ -128,10 +128,10 @@ function setConnectedStatus(status) {
 function init() {
   // Initialize some rooms.
   addRoom("lobby");
-  addRoom("Phantom");
+  addRoom("Rusty Chat");
   changeRoom("lobby");
-  addMessage("lobby", "Phantom", "Hey! Welcome to the lobby! Send a message to start a conversation", true);
-  addMessage("Phantom", "Phantom", "This is another room. Neat, huh?", true);
+  addMessage("lobby", "Rusty Chat", "Hey! Welcome to the lobby! Send a message to start a conversation", true);
+  addMessage("Rusty Chat", "Rusty Chat", "This is another room. Neat, huh?", true);
 
   // Set up the form handler.
   newMessageForm.addEventListener("submit", (e) => {
